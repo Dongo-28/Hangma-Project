@@ -1,5 +1,7 @@
 Hangma-Project
+
 Visão Geral
+
 O Hangma-Project é um jogo da forca simples implementado usando HTML, CSS e JavaScript. O jogo desafia os jogadores a adivinhar uma palavra secreta inserindo letras pelo teclado. Os jogadores têm um número limitado de palpites errados antes de perder o jogo. O projeto apresenta um design responsivo, feedback visual para palpites corretos e incorretos e um popup para indicar os resultados do jogo.
 Funcionalidades
 
