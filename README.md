@@ -1,5 +1,7 @@
 🎯 Hangma-Project
+
 📌 Visão Geral
+
 Hangma-Project é um jogo da forca simples e intuitivo, desenvolvido com HTML, CSS e JavaScript. O objetivo é adivinhar uma palavra secreta, letra por letra, antes que a forca se complete. O jogo conta com feedback visual, popup de resultado e um design responsivo.
 
 ⚙️ Funcionalidades
@@ -30,6 +32,7 @@ git clone https://github.com/seu-usuario/Hangma-Project.git
 cd Hangma-Project
 
 🔍 Agora, abra o arquivo forca.html em qualquer navegador (como Chrome ou Firefox).
+
 📦 Nenhuma dependência externa ou servidor é necessário!
 
 🎮 Como Jogar
@@ -54,9 +57,13 @@ Regras:
 
 📁 Estrutura de Arquivos
 Hangma-Project/
+
 ├── forca.html        # Estrutura principal
+
 ├── style.css         # Estilização visual
+
 ├── script.js         # Lógica e interatividade
+
 └── img/              # Imagens da forca (forca1.png a forca6.png)
 
 🐞 Problemas Conhecidos
