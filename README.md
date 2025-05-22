@@ -26,7 +26,7 @@ JavaScript: Lógica do jogo, manipulação de eventos e regras de vitória/derro
 
 🧩 Como Executar Localmente
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/Hangma-Project.git
+git clone https://github.com/Dongo-28/Hangma-Project
 
 # 2. Acesse o diretório
 cd Hangma-Project
