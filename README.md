@@ -1,88 +1,142 @@
-🎯 Hangma-Project
+# 🎯 Hangma-Project
 
-📌 Visão Geral
+<p align="center">
+  <strong>Um jogo clássico da forca, desenvolvido com HTML, CSS e JavaScript.</strong>
+</p>
 
-Hangma-Project é um jogo da forca simples e intuitivo, desenvolvido com HTML, CSS e JavaScript. O objetivo é adivinhar uma palavra secreta, letra por letra, antes que a forca se complete. O jogo conta com feedback visual, popup de resultado e um design responsivo.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
 
-⚙️ Funcionalidades
-🔤 Seleção aleatória de palavras de uma lista predefinida.
+---
 
-🖼️ Atualização dinâmica da imagem da forca a cada erro.
+## 📌 Sobre o Projeto
 
-✅ Exibição separada de letras corretas e incorretas.
+**Hangma-Project** é uma implementação digital do clássico jogo da forca, desenvolvida com HTML, CSS e JavaScript. O objetivo é descobrir uma palavra secreta, letra por letra, antes que o desenho da forca seja completado.
 
-⚠️ Aviso visual ao tentar inserir letras repetidas.
+O projeto apresenta uma interface simples, intuitiva e responsiva, proporcionando uma experiência de jogo agradável, com feedback visual, atualização dinâmica das imagens e um popup para apresentar o resultado de cada partida.
 
-📱 Layout centralizado e responsivo.
+## ✨ Funcionalidades
 
-🔁 Botão para reiniciar o jogo após vencer ou perder.
+- 🔤 **Palavras aleatórias:** seleção automática de palavras a partir de uma lista predefinida.
+- 🖼️ **Forca dinâmica:** atualização da imagem a cada tentativa incorreta.
+- ✅ **Letras corretas:** identificação e apresentação das letras acertadas.
+- ❌ **Letras incorretas:** apresentação das letras que não pertencem à palavra secreta.
+- ⚠️ **Prevenção de repetições:** aviso visual ao tentar inserir uma letra já utilizada.
+- 📱 **Design responsivo:** interface adaptável a diferentes tamanhos de ecrã.
+- 🏆 **Sistema de resultados:** identificação automática de vitória ou derrota através de um popup.
+- 🔁 **Reiniciar partida:** possibilidade de começar um novo jogo após o término da partida.
 
-🛠️ Tecnologias Utilizadas
-HTML: Estrutura da interface do jogo.
+## 🛠️ Tecnologias Utilizadas
 
-CSS: Estilização da UI, com foco em responsividade e popups.
+| Tecnologia | Descrição |
+|---|---|
+| HTML5 | Estrutura e organização da interface. |
+| CSS3 | Estilização, layout responsivo e animações visuais. |
+| JavaScript | Lógica do jogo, manipulação do DOM e gestão dos eventos. |
 
-JavaScript: Lógica do jogo, manipulação de eventos e regras de vitória/derrota.
+## 🚀 Como Executar o Projeto
 
-🧩 Como Executar Localmente
-# 1. Clone o repositório
-git clone https://github.com/Dongo-28/Hangma-Project
+Não é necessário instalar dependências nem configurar um servidor. Basta seguir os passos:
 
-# 2. Acesse o diretório
-cd Hangma-Project
+**1. Clonar o repositório**
 
-🔍 Agora, abra o arquivo forca.html em qualquer navegador (como Chrome ou Firefox).
-
-📦 Nenhuma dependência externa ou servidor é necessário!
-
-🎮 Como Jogar
-Abra o jogo no navegador.
-
-Uma palavra secreta será exibida como sublinhados (_).
-
-Pressione letras no teclado para tentar adivinhar.
-
-Regras:
-✔️ Letras corretas aparecem nas posições certas.
-
-❌ Letras erradas são listadas e a imagem da forca é atualizada.
-
-⚠️ Letras repetidas geram um aviso.
-
-🏆 Vitória: Adivinhe todas as letras.
-
-💀 Derrota: 6 erros completam a forca.
-
-🪧 Ao terminar, um popup exibirá o resultado com a opção de "Jogar Novamente".
-
-##📁 Estrutura de Arquivos
-```text
-Hangma-Project/
-
-├── forca.html        # Estrutura principal
-
-├── style.css         # Estilização visual
-
-├── script.js         # Lógica e interatividade
-
-└── img/              # Imagens da forca (forca1.png a forca6.png)
+```bash
+git clone https://github.com/Dongo-28/Hangma-Project.git
 ```
 
-🐞 Problemas Conhecidos
-🔄 A função desenharForca() pode não atualizar corretamente a imagem, caso o número de erros e o array de imagens não estejam sincronizados.
+**2. Aceder à pasta do projeto**
 
-🔎 A verificação palavraSecreta === container.innerText pode falhar devido à presença de HTML. Recomendado usar uma abordagem com comparação direta de letras adivinhadas.
+```bash
+cd Hangma-Project
+```
 
-🚀 Melhorias Futuras
-🔊 Efeitos sonoros para acertos, erros e fim de jogo.
+**3. Executar o jogo**
 
-🎯 Níveis de dificuldade e sistema de pontuação.
+Abre o ficheiro `forca.html` diretamente no teu navegador preferido, como Google Chrome, Mozilla Firefox ou Microsoft Edge.
 
-♿ Acessibilidade com navegação por teclado e ARIA.
+> 📦 Não são necessárias dependências externas!
 
-💡 Funcionalidade de dica para ajudar o jogador.
+## 🎮 Como Jogar
 
-🤝 Contribuindo
-Contribuições são bem-vindas!
-Basta fazer um fork, criar uma branch, aplicar as mudanças e enviar um pull request.
-Por favor, siga o estilo do projeto e comente seu código.
+1. Abre o jogo no navegador.
+2. Observa os espaços em branco que representam a palavra secreta.
+3. Pressiona uma letra no teclado para tentar adivinhar a palavra.
+4. Acompanha as letras corretas, as tentativas incorretas e a evolução do desenho da forca.
+
+### 📜 Regras do Jogo
+
+| Situação | Resultado |
+|---|---|
+| ✅ Letra correta | Aparece na posição correspondente da palavra. |
+| ❌ Letra incorreta | É adicionada à lista de erros e atualiza a imagem da forca. |
+| ⚠️ Letra repetida | É apresentado um aviso visual. |
+| 🏆 Vitória | Todas as letras da palavra são descobertas. |
+| 💀 Derrota | A forca é completada após 6 erros. |
+
+Quando a partida termina, um popup apresenta o resultado e disponibiliza a opção **«Jogar Novamente»**.
+
+## 📁 Estrutura do Projeto
+
+```text
+Hangma-Project/
+│
+├── forca.html          # Estrutura principal do jogo
+│
+├── style.css           # Estilos e design da interface
+│
+├── script.js           # Lógica e funcionalidades do jogo
+│
+└── img/
+    ├── forca1.png      # Estado inicial
+    ├── forca2.png      # Primeiro erro
+    ├── forca3.png      # Segundo erro
+    ├── forca4.png      # Terceiro erro
+    ├── forca5.png      # Quarto erro
+    └── forca6.png      # Estado final
+```
+
+## 🐞 Problemas Conhecidos
+
+Existem alguns pontos que podem beneficiar de melhorias na implementação atual:
+
+- **Sincronização das imagens:** a função `desenharForca()` poderá apresentar problemas caso o número de erros não esteja devidamente sincronizado com o array de imagens.
+- **Verificação de vitória:** a comparação `palavraSecreta === container.innerText` poderá falhar devido à presença de elementos HTML. Recomenda-se utilizar uma comparação direta entre as letras descobertas e a palavra secreta.
+
+## 🔮 Melhorias Futuras
+
+Algumas funcionalidades que poderão ser implementadas em versões futuras:
+
+- 🔊 Adicionar efeitos sonoros para acertos, erros e fim de jogo.
+- 🎯 Implementar diferentes níveis de dificuldade.
+- 🥇 Criar um sistema de pontuação e recordes.
+- ♿ Melhorar a acessibilidade através de navegação por teclado e atributos ARIA.
+- 💡 Adicionar um sistema de dicas para ajudar os jogadores.
+- 🌍 Expandir a lista de palavras e adicionar diferentes categorias.
+
+## 🤝 Contribuições
+
+As contribuições são bem-vindas!
+
+Se quiseres contribuir para o desenvolvimento do **Hangma-Project**, segue estes passos:
+
+1. Faz um Fork do repositório.
+2. Cria uma nova branch (`git checkout -b feature/nova-funcionalidade`).
+3. Implementa as tuas alterações.
+4. Efetua o commit (`git commit -m "Adiciona nova funcionalidade"`).
+5. Envia as alterações (`git push origin feature/nova-funcionalidade`).
+6. Abre um Pull Request.
+
+Por favor, mantém o código organizado, segue o estilo de desenvolvimento do projeto e documenta as alterações relevantes.
+
+---
+
+<p align="center">
+  Desenvolvido com ❤️ utilizando HTML, CSS e JavaScript.
+</p>
+
+<p align="center">
+  <strong>🎯 Hangma-Project — Testa a tua capacidade de adivinhar!</strong>
+</p>
