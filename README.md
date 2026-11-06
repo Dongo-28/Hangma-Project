@@ -56,6 +56,7 @@ Regras:
 🪧 Ao terminar, um popup exibirá o resultado com a opção de "Jogar Novamente".
 
 📁 Estrutura de Arquivos
+```text
 Hangma-Project/
 
 ├── forca.html        # Estrutura principal
@@ -65,6 +66,7 @@ Hangma-Project/
 ├── script.js         # Lógica e interatividade
 
 └── img/              # Imagens da forca (forca1.png a forca6.png)
+```
 
 🐞 Problemas Conhecidos
 🔄 A função desenharForca() pode não atualizar corretamente a imagem, caso o número de erros e o array de imagens não estejam sincronizados.
