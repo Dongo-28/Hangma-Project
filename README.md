@@ -55,7 +55,7 @@ Regras:
 
 🪧 Ao terminar, um popup exibirá o resultado com a opção de "Jogar Novamente".
 
-📁 Estrutura de Arquivos
+##📁 Estrutura de Arquivos
 ```text
 Hangma-Project/
 
